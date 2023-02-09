@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		25874E0D29949B1B00AB3CFE /* DaleArtsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25874E0C29949B1B00AB3CFE /* DaleArtsApp.swift */; };
-		25874E0F29949B1B00AB3CFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25874E0E29949B1B00AB3CFE /* ContentView.swift */; };
+		25874E0F29949B1B00AB3CFE /* LoginPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25874E0E29949B1B00AB3CFE /* LoginPageView.swift */; };
 		25874E1129949B1C00AB3CFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25874E1029949B1C00AB3CFE /* Assets.xcassets */; };
 		25874E1429949B1C00AB3CFE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25874E1329949B1C00AB3CFE /* Preview Assets.xcassets */; };
 		25874E1E29949B1C00AB3CFE /* DaleArtsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25874E1D29949B1C00AB3CFE /* DaleArtsTests.swift */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		25874E0929949B1B00AB3CFE /* DaleArts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DaleArts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25874E0C29949B1B00AB3CFE /* DaleArtsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaleArtsApp.swift; sourceTree = "<group>"; };
-		25874E0E29949B1B00AB3CFE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		25874E0E29949B1B00AB3CFE /* LoginPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageView.swift; sourceTree = "<group>"; };
 		25874E1029949B1C00AB3CFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25874E1329949B1C00AB3CFE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		25874E1929949B1C00AB3CFE /* DaleArtsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DaleArtsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				25874E0C29949B1B00AB3CFE /* DaleArtsApp.swift */,
-				25874E0E29949B1B00AB3CFE /* ContentView.swift */,
+				25874E0E29949B1B00AB3CFE /* LoginPageView.swift */,
 				25874E1029949B1C00AB3CFE /* Assets.xcassets */,
 				25874E1229949B1C00AB3CFE /* Preview Content */,
 			);
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25874E0F29949B1B00AB3CFE /* ContentView.swift in Sources */,
+				25874E0F29949B1B00AB3CFE /* LoginPageView.swift in Sources */,
 				25874E0D29949B1B00AB3CFE /* DaleArtsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
