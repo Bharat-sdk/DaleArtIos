@@ -30,16 +30,24 @@ struct LoginPageView: View {
                            RoundedRectangle(cornerRadius: 10)
                                .stroke(Color.gray, lineWidth: 1)
                        )
+            Spacer()
+                .frame(height:30)
             HStack(){
-                Text("Email")
+                Text("Password")
                 Spacer()
             }
-            TextField("Enter your email id",text: $name)
+            TextField("Enter your Password here",text: $name)
                 .padding(15)
                 .overlay(
                            RoundedRectangle(cornerRadius: 10)
                                .stroke(Color.gray, lineWidth: 1)
                        )
+            HStack(){
+                Text("Didn't Have Account?")
+                Text("SignUp")
+                Spacer()
+            }
+            .padding(EdgeInsets(top: 10,leading: 0,bottom: 0,trailing: 0))
 
                 
         }
